@@ -1,114 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>E-Commerce Website - Shopping cart</title>
- <!--link to CSS-->
- <link rel="stylesheet" href="css/style.css">
- <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>CodePen - Log In / Sign Up | Nothing4us</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="css1/style.css">
+
+
 </head>
 <body>
- <!--Header-->
- <header>
- <!--Nav-->
- <div class="nav container">
- <a href="#" class="logo">E-Cart</a>
- <!--Cart-icon-->
- <i class='bx bx-shopping-bag' id="cart-icon"></i>
- <!--Cart-->
- <div class="cart">
- <h2 class="cart-title">Your Cart</h2>
- <!--Content-->
- <div class="cart-content">
- <div class="cart-box">
- 
- </div>
- </div>
- <!--Total-->
- <div class="total">
- <div class="total-title">Total</div>
- <div class="total-price">$0</div>
- </div>
- <!--Buy Button-->
- <button type="button" class="btn-buy">Buy Now</button>
- <!--Cart Close-->
- <i class='bx bx-x' id="close-cart"></i>
- </div>
- </div>
- </header>
- <!--Shop-->
- <section class="shop container">
- <h2 class="section-title">Shop Products</h2>
- <!--Content-->
- <div class="shop-content">
- <!--Box 1-->
- <div class="product-box">
- <img src="img/product1.jpg" alt="" class="product-img">
- <h2 class="product-title">AEROREADY SHIRT</h2>
- <div class="span price">$25</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 2-->
- <div class="product-box">
- <img src="img/product2.jpg" alt="" class="product-img">
- <h2 class="product-title">WIRELESS EARBUDS</h2>
- <div class="span price">$100</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 3-->
- <div class="product-box">
- <img src="img/product3.jpg" alt="" class="product-img">
- <h2 class="product-title">HOODED PARKA</h2>
- <div class="span price">$45</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 4-->
- <div class="product-box">
- <img src="img/product4.jpg" alt="" class="product-img">
- <h2 class="product-title">STRAW METAL BOTTLE</h2>
- <div class="span price">$24.04</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 5-->
- <div class="product-box">
- <img src="img/product5.jpg" alt="" class="product-img">
- <h2 class="product-title">METAL Sunglasses</h2>
- <div class="span price">$50</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 6-->
- <div class="product-box">
- <img src="img/product6.jpg" alt="" class="product-img">
- <h2 class="product-title">BACK HAT</h2>
- <div class="span price">$50</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 7-->
- <div class="product-box">
- <img src="img/product7.jpg" alt="" class="product-img">
- <h2 class="product-title">BACKPACK</h2>
- <div class="span price">$70</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- <!--Box 8-->
- <div class="product-box">
- <img src="img/product8.jpg" alt="" class="product-img">
- <h2 class="product-title">ULTRABOOST 22</h2>
- <div class="span price">$45</div>
- <i class='bx bx-shopping-bag add-cart'></i>
- </h2>
- </div>
- </div>
- </section>
- <!--Link to js--> <script src="js/main.js"></script>
+<!-- partial:index.partial.html -->
+<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+						<h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+			          	<label for="reg-log"></label>
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Log In</h4>
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="home/index.html" class="btn mt-4">submit</a>
+                            				<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
+				      					</div>
+			      					</div>
+			      				</div>
+								<div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Sign Up</h4>
+											<div class="form-group">
+												<input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
+												<i class="input-icon uil uil-user"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="home/index.html" class="btn mt-4">submit</a>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+<!-- partial -->
+  
 </body>
 </html>
